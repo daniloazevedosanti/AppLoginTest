@@ -1,3 +1,7 @@
+# Algumas Informações: 
+Usuário: admin, senha: 1234 - rotas /login e /boasvindas, rota default é /login, em caso de sucesso no login será encaminhando para a rota boasvindas.
+Ao baixar o projeto dê um "npm i" para instalar as dependências e para rodar após dê um "ng serve"
+
 # AppTest
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.6.
