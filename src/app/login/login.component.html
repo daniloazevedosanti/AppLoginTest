@@ -1,0 +1,18 @@
+<br>
+<div class="d-flex justify-content-center align-items-center">
+    <form>
+        <div class="card p-3">
+            <div class="form-group">
+                <label for="login">Login</label>
+                <input type="text" id="login" name="usuario" class="form-control" [(ngModel)]="usuario">
+            </div>
+
+            <div class="form-group">
+                <label for="senha">Senha</label>
+                <input type="password" id="password" name="senha" class="form-control" [(ngModel)]="senha">
+            </div>
+
+        </div>
+        <button class="btn btn-success" type="submit" (click)="login()">Entrar</button>
+    </form>
+</div>
